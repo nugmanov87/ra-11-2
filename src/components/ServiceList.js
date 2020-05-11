@@ -6,6 +6,7 @@ import ServiceAdd from "./ServiceAdd.js";
 export default function ServiceList(props) {
   const { match, history } = props;
   const { items, loading, error } = useSelector((state) => state.serviceList);
+  // eslint-disable-next-line no-unused-vars
   const { isLoading, isError } = useSelector((state) => state.serviceIsLoadng);
   const dispatch = useDispatch();
 

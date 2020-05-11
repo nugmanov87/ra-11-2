@@ -26,6 +26,7 @@ export default function ServiceChange(props) {
       // fetchService(dispatch, id);
       dispatch(fetchService(id));
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch, chLoading]);
 
   const handleSubmit = (event) => {
