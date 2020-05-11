@@ -25,7 +25,7 @@ export default function ServiceAdd(props) {
       <input name="name" onChange={handleChange} value={item.name} />
       <input name="price" onChange={handleChange} value={item.price} />
       {!loading && (
-        <button type="submit" disabled={loading}>
+        <button class="ui inverted green button" type="submit" disabled={loading}>
           Save
         </button>
       )}
